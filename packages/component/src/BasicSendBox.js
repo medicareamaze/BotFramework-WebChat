@@ -7,7 +7,7 @@ import connectToWebChat from './connectToWebChat';
 import DictationInterims from './SendBox/DictationInterims';
 import MicrophoneButton from './SendBox/MicrophoneButton';
 import SendButton from './SendBox/SendButton';
-import SuggestedActions from './SendBox/SuggestedActions';
+//import SuggestedActions from './SendBox/SuggestedActions';
 import TextBox from './SendBox/TextBox';
 import UploadButton from './SendBox/UploadButton';
 
@@ -45,7 +45,7 @@ const BasicSendBox = ({
     role="form"
   >
     <ConnectivityStatus />
-    <SuggestedActions />
+
     <div className="main">
       { !styleSet.options.hideUploadButton &&
         <UploadButton />
